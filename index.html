@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <style>
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cookie {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #d4a373;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Clicker 🍪</h1>
+        <div id="cookie" class="cookie"></div>
+        <div id="displayCookies" class="display">
+            <p>Você tem 0 cookies!</p>
+        </div>
+        <button id="upgClicker" class="button">Upgrade Clicker</button>
+        <div id="displayUpgradeCost" class="display">
+            <p>Upgrade custa 25 cookies!</p>
+        </div>
+        <button id="autoClicker" class="button">Auto Clicker</button>
+        <div id="displayAutoClickerCost" class="display">
+            <p>Auto Clicker custa 50 cookies!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
