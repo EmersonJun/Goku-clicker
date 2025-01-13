@@ -19,6 +19,8 @@ let multiplierCost = 25;
 let autoClickers = 0;
 let autoClickerCost = 50;
 
+
+
 function cookieClicked() {
     cookies += multiplier;
     displayCookiesAmt();
