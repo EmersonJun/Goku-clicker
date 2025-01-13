@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cookie {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url(png-transparent-goku-vegeta-gohan-frieza-piccolo-goku-fictional-character-cartoon-piccolo-thumbnail.png);
+            background-size: cover;
+            background-position: center;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Clicker 🍪</h1>
+        <div id="cookie" class="cookie"></div>
+        <div id="displayCookies" class="display">
+            <p>Você tem 0 cookies!</p>
+        </div>
+        <button id="upgClicker" class="button">Upgrade Clicker</button>
+        <div id="displayUpgradeCost" class="display">
+            <p>Upgrade custa 25 cookies!</p>
+        </div>
+        <button id="autoClicker" class="button">Auto Clicker</button>
+        <div id="displayAutoClickerCost" class="display">
+            <p>Auto Clicker custa 50 cookies!</p>
+        </div>
+        <button id="changeImage500" class="button">Mudar imagem (500 cookies)</button>
+        <button id="changeImage1000" class="button hidden">Mudar imagem (1000 cookies)</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
