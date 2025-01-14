@@ -55,9 +55,9 @@ function autoClickerClicked() {
 }
 
 function changeImageAt500() {
-    if (cookies >= 500) {
-        cookie.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gohan_Character.png/220px-Gohan_Character.png')"; // Gohan
-        alert("Imagem alterada para Gohan!");
+    if (cookies >= 5) {
+        cookie.style.backgroundImage = "url('https://www.bing.com/ck/a?!&&p=ce35f07ada2f4fdc6bb3923d8fae3ab0be32980663cc5be635f773ce0885396eJmltdHM9MTczNjgxMjgwMA&ptn=3&ver=2&hsh=4&fclid=29e9ad18-2baf-6629-2d08-b9c72abb6707&u=a1L2ltYWdlcy9zZWFyY2g_cT1nb2t1JTIwcGl4ZWxhcnQmRk9STT1JUUZSQkEmaWQ9QzVFNDkxRDNCNjYyQTlDODM3RTAzNTExRjhFQjE1NjcyMzZCQTMxNg&ntb=1')"; // Gohan
+        alert("SSJ");
         changeImage1000.classList.remove("hidden"); // Mostra o botão de 1000 cliques
         changeImage500.remove(); // Remove o botão de 500 cliques
     } else {
@@ -67,8 +67,8 @@ function changeImageAt500() {
 
 
 function changeImageAt1000() {
-    if (cookies >= 1000) {
-        cookie.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/en/1/1f/Vegeta_Character.png')"; // Vegeta
+    if (cookies >= 10) {
+        cookie.style.backgroundImage = "url('https://www.bing.com/ck/a?!&&p=ce35f07ada2f4fdc6bb3923d8fae3ab0be32980663cc5be635f773ce0885396eJmltdHM9MTczNjgxMjgwMA&ptn=3&ver=2&hsh=4&fclid=29e9ad18-2baf-6629-2d08-b9c72abb6707&u=a1L2ltYWdlcy9zZWFyY2g_cT1nb2t1JTIwcGl4ZWxhcnQmRk9STT1JUUZSQkEmaWQ9QzVFNDkxRDNCNjYyQTlDODM3RTAzNTExRjhFQjE1NjcyMzZCQTMxNg&ntb=1')"; // Vegeta
         alert("Imagem alterada para Vegeta!");
     } else {
         alert("Cookies insuficientes! Você precisa de pelo menos 1000 cookies.");
